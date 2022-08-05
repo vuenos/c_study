@@ -41,6 +41,24 @@ int main(void) {
     +
     20
     ;
+    return 0; // 함수의 기능을 끝내고 함수를 호출한 곳으로 제어를 돌려줌
+}
+
+// 한줄 주석문
+/*
+여러줄 주석
+*/
+
+#include <stdio.h> // 전처리 지시자, stdio.h 에서 printf를 호출
+int main(void) {
+    printf("Be Happy \n"); // 문자열 출력 \n 줄바꿈
+    printf("Dont Worry");
     return 0;
 }
+/n : 줄바꿈
+/r : 커서를 해당줄에 맨 앞으로
+/b : 커서를 한칸 왼쪽으로 (백스페이스)
+/t : 운영채제에서 다음 탭(8비트)으로 이동
+/a : 비프음 사운드 제어
+
 ```

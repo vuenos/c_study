@@ -53,6 +53,9 @@ int main(void) {
 int main(void) {
     printf("Be Happy \n"); // 문자열 출력 \n 줄바꿈
     printf("Dont Worry");
+    printf("%d", 10); // 정수 10
+    printf("%lf", 3.4); // 실수 3.400000
+    printf("%.1lf", 3.4); // 실수 3.4
     return 0;
 }
 /n : 줄바꿈
